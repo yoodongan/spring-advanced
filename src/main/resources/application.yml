@@ -1,0 +1,6 @@
+spring:
+    profiles:
+        include: secret
+        active: local
+server:
+    port: 8081
